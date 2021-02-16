@@ -1,0 +1,194 @@
+div#content div.rightbox h3.mm{
+	padding-left: 950px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+
+img.Waxii{
+	
+}
+
+
+div#content h3.dd{
+		padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.container {
+	position: relative;
+    width: 320px;
+    height: 240px;
+    bottom: 16px;
+}
+
+.container .caption {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 825px;
+    padding-bottom: -200px;
+    position: 50 50 50;
+    text-decoration: unset;
+    color: white;
+}
+
+div#content div.leftbox h3.New{
+	padding-bottom: 60px;
+}
+
+div.rightbox iframe.Pub{
+	padding-left: 100px;
+}
+
+p.BostRP{
+	height: 0px;
+	padding-bottom: 0px;
+}
+
+img.BostRP{
+	padding-left: 500px;
+}
+
+nav.JobDiscord ul{
+	list-style-type: none;
+}
+
+nav.JobDiscord ul li a{
+	background-color: #575D5C;
+	padding: 9px;
+	text-decoration: none;
+	color: #e9e6e1;
+}
+
+nav.JobDiscord ul li a:hover{
+	background-color: #323837;
+	color: white;
+	transition: 0.6s all;
+}
+
+
+div#content div{
+	display: inline-block;
+	width: 30%;
+}
+
+
+div#content div.leftbox{
+padding-top: 150px;
+	padding: 25px;
+	padding-left: 400px;
+	margin-top:110px;
+text-align:center;
+
+
+
+}
+
+div#content div.rightbox{
+
+
+}
+
+
+p.Millieu{
+	padding-left: 30%;
+	color: #69767f;
+
+}
+
+div#content div.Métiers h3{
+    color: #2ba6cb;
+    padding-top: 150px;
+}
+
+body{
+background-color: #e9e6e1;
+}
+
+h1.h1n°1{
+	padding-left: 45%;
+}
+
+p.Job{
+	color: #575D5C;
+}
+
+
+a.departements{
+	background-color: #212529;
+}
+
+nav.Menues ul{
+	list-style-type: none;
+	  padding-left: 85%;
+	  display: inline-block;
+}
+
+
+
+nav.Menues ul a{
+	display: inline-block;
+    text-decoration: none;
+    color: #e9e6e1;
+    padding: 9px;
+    text-align: center;
+    float: left;
+}
+
+nav.Menues ul li a.Join:hover{
+	background-color: black;
+	color: white;
+	transition: 0.8s all;
+}
+
+nav.Menues ul li a.bouton:hover{
+	background-color: black;
+	color: white;
+	transition: 0.8s all;
+}
+
+nav.Menues ul li a.Jobs:hover{
+		background-color: black;
+	color: white;
+	transition: 0.8s all;
+
+}
+
+footer{
+	background-color: #0C0C0C;
+	color: white;
+	padding: 100px;
+}
+
+footer{
+	padding-left: 750px;
+}
+
+header{
+	background-color: #212529;
+}
+
+
+.slideshow {
+
+   height: 500px;
+
+   overflow: hidden;
+
+   border: 3px solid #F2F2F2;
+
+}
+
+.bouton{
+color: #ff6347; /* couleur du texte */
+cursor:pointer; /* apparence du curseur */
+display: inline-block; /* autorise les marges sur un élément "a" */
+padding: 5px; /* espace entre la bordure et le texte */
+}
+
