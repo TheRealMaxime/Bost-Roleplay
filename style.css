@@ -139,6 +139,7 @@ nav.Menues ul a{
     padding: 9px;
     text-align: center;
     float: left;
+    border: inset;
 }
 
 nav.Menues ul li a.Join:hover{
