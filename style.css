@@ -130,7 +130,9 @@ nav.Menues ul{
 	  display: inline-block;
 }
 
-
+nav.Menues ul li a.bouton{
+    margin: 0px;
+}
 
 nav.Menues ul a{
 	display: inline-block;
@@ -139,7 +141,7 @@ nav.Menues ul a{
     padding: 9px;
     text-align: center;
     float: left;
-    border: inset;
+    border: none;
 }
 
 nav.Menues ul li a.Join:hover{
