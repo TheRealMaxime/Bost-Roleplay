@@ -134,6 +134,47 @@ nav.Menues ul li a.bouton{
     margin: 0px;
 }
 
+nav.Menues ul li a.bouton p.Gangs{
+
+height:200px;
+position:relative;
+position:absolute;
+bottom:0;
+}
+
+nav.Menues ul li a.bouton p.Jobs{
+
+	height:200px;
+	position:relative;
+	position:absolute;
+	bottom:0;
+	}
+
+	nav.Menues ul li a.bouton p.Shop{
+
+		height:200px;
+		position:relative;
+		position:absolute;
+		bottom:0;
+		}
+
+		nav.Menues ul li a.bouton p.Joinus{
+
+			height:200px;
+			position:relative;
+			position:absolute;
+			bottom:0;
+			}
+
+			nav.Menues ul li a.bouton p.Home{
+
+				height:200px;
+				position:relative;
+				position:absolute;
+				bottom:0;
+				}
+	
+
 nav.Menues ul a{
 	display: inline-block;
     text-decoration: none;
