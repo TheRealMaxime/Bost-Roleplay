@@ -104,6 +104,7 @@ img.BostRP{
 
 nav.JobDiscord ul{
 	list-style-type: none;
+    margin-left: 850px;
 }
 
 nav.JobDiscord ul li a{
@@ -347,6 +348,10 @@ a.button-cta{
 
 nav {
     display: flex;
+}
+
+.job-boutton{
+	padding-left: 600px;
 }
 
 
