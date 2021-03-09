@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Bost Roleplay </title>
+	<title> Les métiers </title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
 <body>
 
 	<header>
 		<center><img src="https://media.discordapp.net/attachments/808410972757819422/808760138055286824/ffff.png?width=731&height=676" width="90"></center>
 
+		
+
+
 		<head>
 			<style>
 			.boutonmenuprincipal {
-			background-color: #161616;
+			background-color: rgb(26, 26, 26);
 			color: white;
 			border: none;
 			cursor: pointer;
@@ -33,31 +36,78 @@
 			.dropdown-child {
 			display: none;
 			background-color: #292828;
-			min-width: 50px;
+			min-width: 200px;
 			}
 			.dropdown-child a {
 			color: white;
-			padding: 20px;
+			padding: 10px;
+			margin-left: 40px;
 			text-decoration: none;
-			display: block;
+			display: block
 			}
 			.dropdown:hover .dropdown-child {
 			display: block;
 			}
+
+
+			a {
+				
+				display:block;                /* Transformation en block */
+					min-width: 100px;             /* Largeur minimale des liens */   
+					padding-left: 300000px;
+					margin: 0;               /* Marges externes */
+					padding: 1rem 0;            /* Marges internes */
+					text-align: center;           /* Centrage du texte */   
+					background-color: #272727;    /* Arrière-plan */
+					color: #fff;                  /* Couleur du texte */
+					text-decoration: none;        /* Suppression du soulignement */
+					border-start-end-radius: 0%;
+					border: 1px solid #fff;       /* Ajout d'une bordure */
+					border-radius: 15px;           /* Arrondis des bordures */
+					
+					transition: all 1s ;          /* Ajout des effets de transition */
+
+					width: 2px;
+					margin-bottom: 10px;
+			}
+
+			a.boutton-de-style:hover{
+				background-color: #444444;
+					color: #ffffff;
+					border-color: #000000;
+					transition: 0.3s;
+
+			}
+
 			</style>
 			</head>
 			<body>
 			<div class="dropdown">
-			<button class="boutonmenuprincipal"><img src="https://cdn.discordapp.com/attachments/810272376733564978/818577382508068864/unknown.png" width="75"></button>
+			<button class="boutonmenuprincipal"><img src="https://cdn.discordapp.com/attachments/817089910401138723/818896332432343121/unknown.png" width="75"><font size="3"><p>MENU</p></font></button>
 			<div class="dropdown-child">
-			<a href="http://bostroleplay.gq">Accueil</a>
-			<a href="">FAQ</a>
-			<a href="http://bostroleplay.gq/Jobs.html">Métiers</a>
-			<a href="http://www.bostroleplay.gq/Gangs.html">Les gangs</a>
-			<a href="https://discord.gg/T4FudhgMmJ">Nous rejoindre</a>
+			<a href="http://bostroleplay.gq" class="boutton-de-style">Accueil</a>
+			<a href="http://bostroleplay.gq/Jobs.html" class="boutton-de-style">Métiers</a>
+			<a href="http://www.bostroleplay.gq/Gangs.html" class="boutton-de-style">Les gangs</a>
+			<a href="https://riri2gouss.wixsite.com/bostroleplay/boutique" class="boutton-de-style">Boutique</a>
 			</div>
 			</div>
 			</body>
+
+
+			<ul class="menu">
+
+				
+		
+				<li>
+				  <a href="http://www.bostroleplay.gq" class="actif">Accueil</a>
+				</li>
+				<li>
+				  <a href="#">FAQ</a>
+				</li>
+				<li>
+				  <a href="https://discord.gg/T4FudhgMmJ">Nous Rejoindre</a>
+				</li>
+			</ul>
 		
 				
     
