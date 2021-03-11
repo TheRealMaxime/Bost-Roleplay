@@ -99,13 +99,31 @@ p.BostRP{
 }
 
 img.BostRP{
-	padding-left: 500px;
+	padding-left: 400px;
 }
 
 nav.JobDiscord ul{
 	list-style-type: none;
     margin-left: 850px;
 }
+
+body{
+	background-color:rgb(43,127,192);
+}
+
+#recherche{
+	width:150px;
+	height:29px;
+}
+
+#centre{
+	height:29px;
+	width:144px;
+	}
+#droite{
+	height:29px;
+	width:43px;
+	}
 
 nav.JobDiscord ul li a{
 	background-color: #575D5C;
@@ -119,6 +137,30 @@ nav.JobDiscord ul li a:hover{
 	background-color: #323837;
 	color: white;
 	transition: 0.6s all;
+}
+
+a.bccf{
+	text-decoration: none;
+}
+
+p.bccf{
+	
+	margin-left: 775px;
+width: 300px;
+   border-style:solid;
+   border-width: 1px;
+    border-color: white;
+	border-radius: 10px;
+	color: rgb(179, 179, 179);
+	background-color: rgb(36, 35, 35);
+	
+}
+
+p.bccf:hover{
+	color: rgb(99, 99, 99);
+	background-color:rgb(26, 26, 26);
+	transition: 0.3s;
+	border-width: 0px;
 }
 
 
@@ -244,7 +286,8 @@ nav.Menues ul li a.bouton p.Jobs{
 					font-family: "Trebuchet MS";
 				}
 				.menu {
-					margin-left: 500px;
+					margin-right: 100px;
+					margin-left: 100px;
 					margin-top: 100px;
 					position: 0 200 0;
 					padding-left: 5000px;
@@ -259,34 +302,24 @@ nav.Menues ul li a.bouton p.Jobs{
 					list-style-type: none ;       /* Suppression des puces */
 				  
 				}
-				.menu a {
-					display:block;                /* Transformation en block */
-					min-width: 100px;             /* Largeur minimale des liens */   
-					
-					margin: 0;               /* Marges externes */
-					padding: 0.4rem 0;            /* Marges internes */
-					text-align: center;           /* Centrage du texte */   
-					background-color: #272727;    /* Arrière-plan */
-					color: #fff;                  /* Couleur du texte */
-					text-decoration: none;        /* Suppression du soulignement */
-					border: 1px solid #fff;       /* Ajout d'une bordure */
-					border-radius: 60px;
-					width: 250px;           /* Arrondis des bordures */
-					
-					transition: all 1s ;          /* Ajout des effets de transition */
+
+				a.bouton-haut{
+
+					text-decoration: none;
+					color: white
 				}
+
+				a.bouton-haut:hover{
+					color: rgb(74, 122, 253);
+					transition: 0.3s;
+				}
+
 				.menu a.actif {    
 					background-color: #000 ; 
 					color: #ffffff ;
 					border-color: #000000 ;
 				}
-				.menu a:hover,
-				.menu a:hover.actif{
-					background-color: #444444;
-					color: #ffffff;
-					border-color: #000000;
-				}
-
+				
 nav.Menues ul a{
     text-decoration: none;
     color: #2a3237;
@@ -326,6 +359,7 @@ footer{
 }
 
 header{
+	position: sticky;
 	background-color: rgb(26, 26, 26);
 }
 
@@ -355,5 +389,36 @@ nav {
 }
 
 
+img.logo-discord{
+	margin-left: 700px;
+	margin-bottom: 100px;
+	
+}
 
+img.logo-discord:hover{
+	transform: rotateZ(360deg);
+	transition: 1.0s;
+}
 
+h2.BostRP{
+	margin-top: 500px;
+	margin-left: 300px;
+}
+
+p.BostRP{
+	margin-top: 500px;
+}
+
+img.ccbc{
+	
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+div.caption{
+	padding: 500;
+}
+
+.logo-title{
+	margin-left: 675px;
+}
