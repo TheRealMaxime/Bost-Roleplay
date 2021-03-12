@@ -40,24 +40,7 @@ div#content h3.dd{
 	font-size:25px;
 }
 
-.button-cta {
-	margin-top:-15px;
-	border: 2px solid #fff;
-	padding: 10px 50px;
-	font-size: 16px;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-	font-weight: 800;
-	color: #fff;
-	display: inline-block;
 
-	-webkit-transition: all .4s ease; /* Safari and Chrome */
-	-moz-transition: all .5s ease; /* Firefox */
-	-o-transition: all .5s ease; /* IE 9 */
-	-ms-transition: all .5s ease; /* Opera */
-	transition: all .5s ease;
-
-}
 .button-cta:hover {
 	color: #000;
 	background-color: #fff;	
@@ -141,17 +124,18 @@ nav.JobDiscord ul li a:hover{
 
 a.bccf{
 	text-decoration: none;
+	padding: 10px;
 }
 
 p.bccf{
-	
+	padding: 15px;
 	margin-left: 775px;
 width: 300px;
    border-style:solid;
    border-width: 1px;
     border-color: white;
 	border-radius: 10px;
-	color: rgb(179, 179, 179);
+	color: rgb(228, 228, 228);
 	background-color: rgb(36, 35, 35);
 	
 }
@@ -285,19 +269,19 @@ nav.Menues ul li a.bouton p.Jobs{
 				body {
 					font-family: "Trebuchet MS";
 				}
-				.menu {
+				.div-style section{
 					margin-right: 100px;
-					margin-left: 100px;
-					margin-top: 100px;
-					position: 0 200 0;
-					padding-left: 5000px;
+					margin-left: 1200px;
+					
+					
+					
+					
 					display: flex;                /* Transformation en flexbox */
-					padding: 0px;                    /* Suppression des marges internes */
-					background-color: rgb(26, 26, 26);      /* Ajout de la couleur d'arrière-plan */
-					justify-content: flex-end;/* Alignements des liens dans le menu */
-					padding-bottom: 30px;
+					padding: 0px;  	background-color: rgb(26, 26, 26);      /* Ajout de la couleur d'arrière-plan */
+				/* Alignements des liens dans le menu */
+					
 				}
-				.menu li {
+				.div-style section li {
 					padding-left: 50px;
 					list-style-type: none ;       /* Suppression des puces */
 				  
@@ -314,7 +298,7 @@ nav.Menues ul li a.bouton p.Jobs{
 					transition: 0.3s;
 				}
 
-				.menu a.actif {    
+				.div-style section a.actif {    
 					background-color: #000 ; 
 					color: #ffffff ;
 					border-color: #000000 ;
@@ -360,6 +344,8 @@ footer{
 
 header{
 	position: sticky;
+	width: 2000px;
+	height: 200px;
 	background-color: rgb(26, 26, 26);
 }
 
@@ -415,10 +401,75 @@ img.ccbc{
 	margin-left: 100px;
 }
 
-div.caption{
-	padding: 500;
-}
 
 .logo-title{
 	margin-left: 675px;
+}
+
+
+
+img.img-ff {
+	vertical-align: -55px;
+	
+	
+	padding: 30px;
+
+  }
+  
+
+.prdd{
+	color: white;
+	margin-right: 850px;
+
+	
+}
+
+
+.bouton03{
+	text-decoration: none;
+	color: white;
+
+}
+
+a.bouton03:hover{
+	color: turquoise;
+}
+
+
+
+
+
+
+
+.bouton-header{
+	margin-bottom: 250px;
+	margin-left: 100px;
+	display: inline-table;
+}
+
+
+img.logo-bost{
+	margin-left: 250px;
+	margin-bottom: 100px;
+	
+}
+
+img.logo-bost:hover{
+	transform: rotateZ(360deg);
+	transition: 1s;
+}
+
+.div-style{
+	vertical-align: middle;
+}
+
+
+section{
+	vertical-align: -300px;
+	display: inline-table;
+	padding: 1000px;
+}
+
+.gif{
+	margin-top: 16px;
 }
