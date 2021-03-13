@@ -124,27 +124,26 @@ nav.JobDiscord ul li a:hover{
 
 a.bccf{
 	text-decoration: none;
-	padding: 10px;
+	list-style-type: none;
+	margin-bottom: 50px;
+
 }
 
-p.bccf{
-	padding: 15px;
-	margin-left: 775px;
-width: 300px;
-   border-style:solid;
-   border-width: 1px;
-    border-color: white;
-	border-radius: 10px;
+a.bccf{
+	
+	list-style-type: none;
+
+  
+   
 	color: rgb(228, 228, 228);
-	background-color: rgb(36, 35, 35);
+	
 	
 }
 
-p.bccf:hover{
-	color: rgb(99, 99, 99);
-	background-color:rgb(26, 26, 26);
+.bccf:hover{
+	text-decoration: underline;
 	transition: 0.3s;
-	border-width: 0px;
+	
 }
 
 
@@ -274,6 +273,8 @@ nav.Menues ul li a.bouton p.Jobs{
 					margin-left: 1200px;
 					
 					
+					vertical-align: -40px;
+				
 					
 					
 					display: flex;                /* Transformation en flexbox */
@@ -283,14 +284,15 @@ nav.Menues ul li a.bouton p.Jobs{
 				}
 				.div-style section li {
 					padding-left: 50px;
-					list-style-type: none ;       /* Suppression des puces */
+					list-style-type: none ;   /* Suppression des puces */
 				  
 				}
 
 				a.bouton-haut{
 
 					text-decoration: none;
-					color: white
+					color: white;
+					
 				}
 
 				a.bouton-haut:hover{
@@ -302,6 +304,7 @@ nav.Menues ul li a.bouton p.Jobs{
 					background-color: #000 ; 
 					color: #ffffff ;
 					border-color: #000000 ;
+					
 				}
 				
 nav.Menues ul a{
@@ -335,18 +338,18 @@ nav.Menues ul li a.Jobs:hover{
 footer{
 	background-color: #0C0C0C;
 	color: white;
-	padding: 100px;
+	padding: 50px;
 }
 
-footer{
-	padding-left: 750px;
-}
 
 header{
-	position: sticky;
+	position: fixed;
+	
 	width: 2000px;
-	height: 200px;
+	height: 17%;
 	background-color: rgb(26, 26, 26);
+    vertical-align: -20px;
+	top: 0px;
 }
 
 a.button-cta{
@@ -409,7 +412,8 @@ img.ccbc{
 
 
 img.img-ff {
-	vertical-align: -55px;
+	vertical-align: middle;
+	
 	
 	
 	padding: 30px;
@@ -420,19 +424,30 @@ img.img-ff {
 .prdd{
 	color: white;
 	margin-right: 850px;
+	
+	
 
 	
+	
+	
+	
+	
+
 }
 
 
 .bouton03{
 	text-decoration: none;
 	color: white;
+	
+	
+	
 
 }
 
 a.bouton03:hover{
-	color: turquoise;
+	color: rgb(195, 255, 249);
+	
 }
 
 
@@ -450,7 +465,9 @@ a.bouton03:hover{
 
 img.logo-bost{
 	margin-left: 250px;
-	margin-bottom: 100px;
+	margin-bottom: 110px;
+	
+
 	
 }
 
@@ -459,13 +476,10 @@ img.logo-bost:hover{
 	transition: 1s;
 }
 
-.div-style{
-	vertical-align: middle;
-}
 
 
 section{
-	vertical-align: -300px;
+	
 	display: inline-table;
 	padding: 1000px;
 }
@@ -473,3 +487,259 @@ section{
 .gif{
 	margin-top: 16px;
 }
+
+
+.fenom{
+	position: relative;
+}
+
+
+section.section-a{
+	vertical-align: middle;
+}
+
+
+img.logo-top-serveur:hover{
+transform: rotateZ(1080deg);
+transition: 1s;
+}
+
+img.logo-top-serveur:hover{
+	transform: rotateZ(360deg);
+	transition: transform 0.6s;
+}
+
+
+
+
+#blackline{
+	
+	width:2px;
+	height:15%;
+	position:absolute;
+	background-color:#353535;
+	margin:9px;
+	padding:0;
+	left:260px;
+	margin-right: 50px;
+	 
+	}
+
+
+
+
+	.début{
+		background-color: black;
+	}
+
+
+	a.bccf-b{
+		text-decoration: none;
+		list-style-type: none;
+		margin-bottom: 50px;
+		margin-left: 250px;
+	
+	
+	}
+	
+	a.bccf-b{
+		
+		list-style-type: none;
+	
+	  
+	   
+		color: rgb(228, 228, 228);
+		
+		
+	}
+	
+	.bccf-b:hover{
+		text-decoration: underline;
+		transition: 0.3s;
+		
+	}
+
+
+
+	a.bccf-c{
+		text-decoration: none;
+		list-style-type: none;
+		margin-bottom: 50px;
+		margin-left: 250px;
+	
+	
+	}
+	
+	a.bccf-c{
+		
+		list-style-type: none;
+	
+	  
+	   
+		color: rgb(228, 228, 228);
+		
+		
+	}
+	
+	.bccf-c:hover{
+		transition: 1s;
+		text-decoration: underline;
+		
+		
+		
+	}
+
+	#blackline-b{
+		width:2px;
+		height:15%;
+		position:absolute;
+		background-color:#353535;
+		margin:-117px;
+		padding:0;
+		left: 697px;
+		margin-right: 50px;
+		 
+		}
+
+		.logo-title-c{
+			margin-left: 875px;
+		}
+
+
+		a.bccf-d{
+			
+		
+			list-style-type: none;
+		
+		  
+		   
+			color: rgb(228, 228, 228);
+			
+			
+		}
+		
+		.bccf-d:hover{
+			transition: 1s;
+			text-decoration: underline;
+			
+			
+			
+		}
+
+
+		#blackline-c{
+			width:2px;
+			height:15%;
+			position:absolute;
+			background-color:#353535;
+			margin:-117px;
+			padding:0;
+			left: 1000px;
+			margin-right: 50px;
+			 
+			}
+
+
+			.bccf-z{
+				text-decoration: none;
+				list-style-type: none;
+				margin-bottom: 50px;
+				margin-left: 240px;
+				list-style-type: none;
+	
+	  
+	   
+				color: rgb(228, 228, 228);
+			}
+
+			.bccf-z:hover{
+				text-decoration: underline;
+
+			}
+
+			.bccf-w{
+				text-decoration: none;
+				list-style-type: none;
+				margin-bottom: 50px;
+				margin-left: 247px;
+				list-style-type: none;
+	
+	  
+	   
+				color: rgb(228, 228, 228);
+			}
+
+			.bccf-w:hover{
+				text-decoration: underline;
+			}
+
+			.bccf-z:hover{
+				text-decoration: underline;
+				
+			}
+
+
+
+			
+		#blackline-d{
+			width:2px;
+			height:15%;
+			position:absolute;
+			background-color:#353535;
+			margin:-117px;
+			padding:0;
+			left: 1300px;
+			margin-right: 50px;
+			 
+			}
+
+
+			#blackline-e{
+				width:2px;
+				height:15%;
+				position:absolute;
+				background-color:#353535;
+				margin:-117px;
+				padding:0;
+				left: 1650px;
+				margin-right: 50px;
+				 
+				}
+
+
+				.bccf-l{
+					text-decoration: none;
+					list-style-type: none;
+					margin-bottom: 50px;
+					margin-left: 290px;
+					list-style-type: none;
+		
+		  
+		   
+					color: rgb(228, 228, 228);
+				}
+	
+				.bccf-l:hover{
+					text-decoration: underline;
+				}
+
+
+				h2.bdfg{
+					margin-left: 850px;
+					margin-right: 880px;
+					padding: 0px;
+					background-color: #BABABA;
+				}
+
+
+				.jjk{
+					margin-left: 550px;
+					border: solide;
+					width: 700px;
+					padding: 10px;
+					border-radius: 10px;
+					color: white;
+					background-color: #393939;
+				}
+		
+	
