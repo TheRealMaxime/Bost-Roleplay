@@ -1,0 +1,12 @@
+@media votre requete ici {
+    img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+        max-width: 100%;
+        body
+{
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    margin: 0;
+}
+    }
+}

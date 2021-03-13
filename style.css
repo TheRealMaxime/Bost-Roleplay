@@ -731,6 +731,10 @@ img.logo-top-serveur:hover{
 					background-color: #BABABA;
 				}
 
+				body {
+					min-width: 1000px;
+				}
+
 
 				.jjk{
 					margin-left: 550px;
