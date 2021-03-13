@@ -1,12 +1,15 @@
-@media votre requete ici {
-    img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
-        max-width: 100%;
-        body
-{
-    background: url('images/fond_jaune.png');
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: #181818;
-    margin: 0;
-}
+@media (max-width: 700px){
+    aside
+    {
+        top: 100%;
+    }
+    
+    article
+    {
+        margin-right: 0;
+        margin-bottom: 463px; 
+        /* Pour laisser la place au bloc, sinon il se positionne SUR le pied de page
+        Sachant que 463px est la hauteur du <aside>.
+        Si vous voulez mettre des marges en plus, augmentez cette valeur */
     }
 }
