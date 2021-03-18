@@ -1,0 +1,15 @@
+@media (max-width: 700px){
+    aside
+    {
+        top: 100%;
+    }
+    
+    article
+    {
+        margin-right: 0;
+        margin-bottom: 463px; 
+        /* Pour laisser la place au bloc, sinon il se positionne SUR le pied de page
+        Sachant que 463px est la hauteur du <aside>.
+        Si vous voulez mettre des marges en plus, augmentez cette valeur */
+    }
+}
